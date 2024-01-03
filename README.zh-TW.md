@@ -11,15 +11,21 @@
 1. 在欲產生碰撞的對象上加入`Collider Maker`
 2. 將包含所有模型的對象拖曳至`Meshes Base`
 3. 點擊欲生成的碰撞器樣式(`Box`或`Sphere`)
+
 ![Inspector](https://github.com/hhs456/Toolkid.BoundsUtility/blob/main/Description/inspector.jpg)
 
 #### 結果
 
 1. Box
+
 ![Multi Cube](https://github.com/hhs456/Toolkid.BoundsUtility/blob/main/Description/multiCube.jpg)
+
 2. Sphere (Inside)
+
 ![Inside Ball](https://github.com/hhs456/Toolkid.BoundsUtility/blob/main/Description/insideBall.jpg)
+
 3. Sphere (Outside)
+
 ![Outside Ball](https://github.com/hhs456/Toolkid.BoundsUtility/blob/main/Description/outsideBall.jpg)
 
 ### 注意事項
