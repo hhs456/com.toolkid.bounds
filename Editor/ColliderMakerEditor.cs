@@ -25,7 +25,7 @@ namespace Toolkid.BoundsToolkit
                 Bounds temp = bounds.FindBounds();
                 SphereCollider collider = ((ColliderMaker)target).gameObject.AddComponent<SphereCollider>();
                 collider.center = temp.center - ((ColliderMaker)target).transform.position;
-                float rate = ((ColliderMaker)target).isInsideBall ? 1 / Mathf.Sqrt(3.0f) : 1.0f;
+                float rate = ((ColliderMaker)target).isInsideBall ? 1.0f : Mathf.Sqrt(3.0f);
                 collider.radius = Mathf.Max(temp.size.x, temp.size.y, temp.size.z) * 0.5f * rate;
                 Debug.Log(temp.center + " " + temp.size);
             }
