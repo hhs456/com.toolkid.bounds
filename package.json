@@ -1,0 +1,15 @@
+{
+  "name": "com.toolkid.bounds",
+  "displayName": "Toolkid.BoundsToolkit",
+  "version": "0.0.0",
+  "unity": "2022.3",
+  "description": "This package includes the extension methods for those components relative to bounds. (e.q. collider, renderer, mesh etc.)",
+  "keywords": [
+    "editor"
+  ],
+  "relatedPackages": {},
+  "repository": {},
+  "samples": [
+    {}
+  ]
+}
